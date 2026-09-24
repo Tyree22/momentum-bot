@@ -1,0 +1,51 @@
+{
+  "mode": "dry_run",
+  "starting_balance": 10000.0,
+  "current_holdings": {
+    "XLE": {
+      "entry_price": 62.369998931884766,
+      "entry_date": "2026-09-24",
+      "shares": 53.4445
+    },
+    "XLK": {
+      "entry_price": 195.33999633789062,
+      "entry_date": "2026-09-24",
+      "shares": 17.0643
+    },
+    "XLV": {
+      "entry_price": 168.8000030517578,
+      "entry_date": "2026-09-24",
+      "shares": 19.7472
+    }
+  },
+  "cash": 0.0,
+  "last_rebalance_month": "2026-09",
+  "history": [
+    {
+      "date": "2026-09-24T02:08:47.935239+00:00",
+      "formation_month": "2026-08",
+      "action": "rebalance",
+      "old_holdings": [],
+      "new_holdings": [
+        "XLE",
+        "XLK",
+        "XLV"
+      ],
+      "full_ranking": {
+        "XLE": 0.4593,
+        "XLK": 0.4287,
+        "XLV": 0.2626,
+        "XLI": 0.1669,
+        "XLB": 0.1628,
+        "XLF": 0.0855,
+        "XLP": 0.0812,
+        "XLRE": 0.0785,
+        "XLU": 0.0296,
+        "XLY": 0.014,
+        "XLC": 0.0132
+      },
+      "portfolio_value": 10000.0,
+      "note": "Rebalanced 2026-09: (none -- initial) -> ['XLE', 'XLK', 'XLV']. Portfolio value at rebalance: $10,000.00"
+    }
+  ]
+}
